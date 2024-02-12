@@ -30,11 +30,14 @@ namespace repaso7022024C.Controladores
                         abrir = true;
                         break;
                     case 1: Console.WriteLine("1. añadir elemento");
+                        ai.darAltaActividad(lista);
                         break;
                     case 2: Console.WriteLine("2. mostrar cararcteristica de la actividad");
+                        ai.mostrarActividad(lista);
                         break;
                     case 3:
                         Console.WriteLine("3. eliminar elemento");
+                        ai.eliminarActividad(lista);
                         break;
                     default: Console.WriteLine("eleccion incorrecta");
                         break;
